@@ -15,12 +15,14 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100;200;300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Goal3Ocean - contact</title>
   </head>
   <body>
-    <header class="banner">
+    <header class="sec-header">
       <nav>
-        <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+        <a href="index.html"
+          ><img class="goalslogo" src="img/goalslogo.png" alt="logo"
+        /></a>
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <a href="index.html">Home</a>
@@ -30,28 +32,61 @@
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
-      <div class="text-box">
-        <h1>Lorum</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        <a href="" class="visit-btn">Visit us to know more</a>
-      </div>
+      <h1>Contact us</h1>
     </header>
 
     <main class="section">
-      <h1>Section</h1>
+      <h1>Share your thoughts, opinions and ideas</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, quia
-        voluptatem ad blanditiis ab dolorum obcaecati deleniti dolore facilis,
-        recusandae laboriosam inventore reiciendis quae cum asperiores enim
-        minima voluptatibus nemo.
+        Here you can share their opinions and ideas about the goal and what you
+        would help to achieve it
       </p>
-      <div class="row">
-        <div class="sec-column">
-          <h3>bum</h3>
-          <p></p>
-        </div>
+      <div class="comment">
+        <h4>leave a comment</h4>
+        <form class="comment-form">
+          <input type="text" placeholder="Enter name" />
+          <input type="text" placeholder="Enter email" />
+          <textarea
+            rows="5"
+            placeholder="Share your opinion and ideas..."
+          ></textarea>
+          <button type="submit" class="visit-btn">Post comment</button>
+        </form>
       </div>
     </main>
+
+    <footer>
+      <div>
+        <img src="img/logo.png" alt="logo" />
+        <address>
+          Contact us<br />
+          Address: Raufossvegen 40, 2821 Gjøvik<br />
+          Phone number: <a href="tel:61135400">61 13 54 00</a>
+        </address>
+      </div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1947.0944295841487!2d10.670003516131723!3d60.78975008219342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641da125116b53d%3A0x7f477d01a45ed970!2sRaufossvegen%2040%2C%202821%20Gj%C3%B8vik!5e0!3m2!1sen!2sno!4v1638209306171!5m2!1sen!2sno"
+          title="Google map"
+          width="330"
+          height="230"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          This page was created as part of the subject
+          <a
+            href="https://www.ntnu.no/studier/emner/IDG1292#tab=omEmnet"
+            target="blank_"
+            >IDG1292</a
+          >
+          of the department | design by Jenny Luong, student from AARWEB
+        </p>
+      </div>
+    </footer>
 
     <!-- Javascript for the Nav Menu -->
     <script>
